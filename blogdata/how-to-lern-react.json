@@ -1,0 +1,6 @@
+{
+  "title": "How to Learn React",
+  "content": "React is a popular JavaScript library for building user interfaces, especially for single-page applications. It allows developers to create reusable components, manage state efficiently, and handle user interactions smoothly. To learn React effectively, start with understanding JSX, components, props, and state. Then explore hooks like useState and useEffect to manage logic inside functional components. Practice building small projects like a to-do app, weather app, or a simple blog to understand component structure and data flow. Learning React Router for navigation and understanding state management libraries like Redux or Context API will further strengthen your skills. Consistent practice and building real projects is the key to mastering React.",
+  "author": "sahil",
+  "slug": "how-to-lern-react"
+}

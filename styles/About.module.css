@@ -1,0 +1,132 @@
+
+
+/* About.module.css */
+
+/* --- General Container and Layout --- */
+.container {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 40px auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+}
+
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 3.2em;
+  color: #1a1a2e; /* Darker tone for title */
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.brand {
+  color: #007bff; /* Highlight primary color */
+}
+
+.tagline {
+  font-size: 1.25em;
+  color: #6c757d;
+  font-weight: 300;
+}
+
+/* --- Section Styling --- */
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.section {
+  padding: 30px;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.section:hover {
+  border-color: #007bff;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.1);
+}
+
+.subtitle {
+  font-size: 1.75em;
+  color: #28a745; /* Green accent color */
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #28a745;
+  display: inline-block;
+}
+
+.text {
+  font-size: 1.05em;
+  color: #495057;
+}
+
+/* --- List Styling --- */
+.featuresList {
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  margin-bottom: 15px;
+  padding-left: 30px;
+  position: relative;
+  font-size: 1.1em;
+  color: #343a40;
+}
+
+.listItem::before {
+  content: '✓'; /* Custom bullet point */
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* --- Call to Action (CTA) Styling --- */
+.cta {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(45deg, #007bff, #000000); /* Gradient background */
+  border-radius: 8px;
+  color: white;
+  margin-top: 30px;
+}
+
+.ctaTitle {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.ctaText {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+.ctaButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s;
+}
+
+.ctaButton:hover {
+  background-color: #1e7e34;
+  transform: translateY(-1px);
+}
+/*  */

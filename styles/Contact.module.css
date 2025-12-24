@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+  background: linear-gradient(135deg, #e0f7fa, #f3e5f5);
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 35px;
+  width: 100%;
+  max-width: 520px;      /* medium width — clean look */
+  min-height: 58vh;      /* ✅ reduced from 65vh → now fits within one screen */
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+}
+
+.heading {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.formGroup label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: #2196f3;
+  box-shadow: 0 0 4px rgba(33, 150, 243, 0.3);
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #1976d2;
+  transform: translateY(-1px);
+}
+
+/* ✅ Responsive adjustments */
+@media (max-width: 600px) {
+  .card {
+    padding: 28px;
+    width: 90%;
+    min-height: 65vh; /* slightly taller for small screens */
+  }
+}

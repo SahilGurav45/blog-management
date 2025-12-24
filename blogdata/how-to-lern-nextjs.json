@@ -1,0 +1,6 @@
+{
+  "title": "How to Learn Next.js",
+  "content": "Next.js is a powerful React framework that enables developers to build fast, scalable, and SEO-friendly web applications. It provides features like server-side rendering (SSR), static site generation (SSG), and API routes, which make building modern web apps easier and more efficient. To start learning Next.js, first get comfortable with React fundamentals like components, hooks, and state management. Then explore Next.js concepts such as pages, routing, dynamic routes, and fetching data with getStaticProps and getServerSideProps. Practice building small projects like blogs, portfolios, or e-commerce sites to understand how Next.js handles performance, optimization, and deployment. Regular practice and exploring the official Next.js documentation will help you master the framework quickly.",
+  "author": "sahil",
+  "slug": "how-to-lern-nextjs"
+}

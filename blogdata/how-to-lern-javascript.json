@@ -1,0 +1,6 @@
+{
+  "title": "How to Learn JavaScript",
+  "content": "JavaScript is a versatile and powerful programming language that allows you to create dynamic and interactive web pages. It is widely used for front-end development to add behavior and interactivity to websites, and also for back-end development through Node.js. To start learning JavaScript, begin with the basics like variables, data types, operators, loops, and functions. Then practice working with the DOM to manipulate web page elements, handle events, and create dynamic content. Advanced topics include asynchronous programming, APIs, ES6 features, and modern frameworks like React, Vue, or Angular. Regular practice, building small projects, and referring to official documentation will help you master JavaScript effectively.",
+  "author": "sahil",
+  "slug": "how-to-lern-javascript"
+}
